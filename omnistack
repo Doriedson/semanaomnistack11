@@ -1,0 +1,41 @@
+https://rocketseat.com.br/week/aulas/11.0?aula=1
+
+figma.com -> para desenhar telas
+
+instalar:
+- nodejs
+- npm
+- visual studio code
+  - Material icon theme
+
+
+Iniciando projeto backend:
+entrar na pasta e executar o comando: npm init -y
+
+npm install express [para resolver rotas e identificar parâmetros]
+
+npx create-react-app frontend
+nmp start [inicia o react]
+
+
+Insomnia - para testar requisições alem do GET
+https://insomnia.rest/download/
+sudo snap install insomnia
+
+nodemon restart o servidor node quando há alterações nos arquivos
+npm install nodemon -D {-D adiciona dependência como DEV e não como dependência da aplicação.
+Criar script "start" em package.json
+run: npm start
+
+knexjs.com
+npm install knex [rodar na pasta que ficará as dependências]
+npm install sqlite3 [instala o banco de dados sqlite / rodar na pasta que ficará as dependências]
+npx knex init [cria o arquivo para os parâmetros de conexão sqlite]
+
+npx knex migrate:make create_ongs [criar um ponto de atualização para o banco de dados para controle de versão]
+npx knex migrate:latest [executa o ultimo ponto de atualização do banco de dados]
+
+npm install cors [em /backend para ativar segurança]
+
+
+figma.com
