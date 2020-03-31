@@ -37,5 +37,16 @@ npx knex migrate:latest [executa o ultimo ponto de atualização do banco de dad
 
 npm install cors [em /backend para ativar segurança]
 
+[pegar fontes em fonts google]
 
+[Desenhar layout]
 figma.com
+
+[pacote de ícones]
+https://feathericons.com/
+npm install react-icons
+
+npm install react-router-dom [instala rotas]
+
+[instalar cliente http na pasta frontend]
+npm install axios
