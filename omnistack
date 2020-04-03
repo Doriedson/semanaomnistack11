@@ -50,3 +50,25 @@ npm install react-router-dom [instala rotas]
 
 [instalar cliente http na pasta frontend]
 npm install axios
+
+[mobile]
+npm install -g expo-cli [-g indica instalação global para ficar disponível em toda máquina.]
+
+[criar projeto mobile]
+expo init mobile [template blank]
+
+[rodar no celular]
+yarn start [na pasta do projeto no pc, instalar o expo no celular e ler o QR-code para abrir o projeto]
+
+[instalar react navigation na pasta mobile]
+npm install @react-navigation/native
+[documentação em https://reactnavigation.org/docs/getting-started/]
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+npm install @react-navigation/stack
+
+[/mobile]expo install expo-constants [pegar altura da barra do celular com a hora antena etc]
+[/mobile]expo install expo-mail-composer[para enviar email]
+[/mobile instalar axios para se comunicar com backend]npm istall axios
+
+[/mobile para suprir a falta de suporte do intl em alguns dispositivos]npm install intl
